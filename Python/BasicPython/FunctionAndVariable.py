@@ -35,10 +35,18 @@ print("hello, world")
     # y = float(input("What is y?"))
 
     # print(x+y)
+    # x = float(input("What is x?"))
+    # y = float(input("What is y?"))
+
+    # # Create a rounded result
+    # z = round(x + y)
+    #     # print(z)
+    # print(f"{z:,}")
+
 x = float(input("What is x?"))
 y = float(input("What is y?"))
 
-# Create a rounded result
-z = round(x + y)
-    # print(z)
-print(f"{z:,}")
+z = x / y ## result 0.6666666666
+    # z = round(x / y, 2) ## result 0.67
+# print(z)
+print(f"{z:.2f}") ## result 0.67
