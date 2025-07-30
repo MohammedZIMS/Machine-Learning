@@ -43,10 +43,10 @@ print("hello, world")
     #     # print(z)
     # print(f"{z:,}")
 
-x = float(input("What is x?"))
-y = float(input("What is y?"))
+    # x = float(input("What is x?"))
+    # y = float(input("What is y?"))
 
-z = x / y ## result 0.6666666666
-    # z = round(x / y, 2) ## result 0.67
-# print(z)
-print(f"{z:.2f}") ## result 0.67
+    # z = x / y ## result 0.6666666666
+    #     # z = round(x / y, 2) ## result 0.67
+    # # print(z)
+    # print(f"{z:.2f}") ## result 0.67
