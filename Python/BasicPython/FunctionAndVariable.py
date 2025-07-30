@@ -24,7 +24,7 @@ print("hello, world")
     # print(f"Hello {name}! How are you?")
 
 # Integers
-x = 1
-y = 2
-z = x+y
+x = input("What is x?")
+y = input("What is y?")
+z = int(x)+int(y)
 print(z)
