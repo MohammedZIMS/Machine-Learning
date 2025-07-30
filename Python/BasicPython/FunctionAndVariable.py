@@ -30,7 +30,14 @@ print("hello, world")
     # print(x+y)
 
 # float
+    # Get the user's input
+    # x = float(input("What is x?"))
+    # y = float(input("What is y?"))
+
+    # print(x+y)
 x = float(input("What is x?"))
 y = float(input("What is y?"))
 
-print(x+y)
+# Create a rounded result
+z = round(x + y)
+print(z)
