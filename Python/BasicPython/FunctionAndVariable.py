@@ -24,7 +24,13 @@ print("hello, world")
     # print(f"Hello {name}! How are you?")
 
 # Integers
-x = int(input("What is x?"))
-y = int(input("What is y?"))
+    # x = int(input("What is x?"))
+    # y = int(input("What is y?"))
+
+    # print(x+y)
+
+# float
+x = float(input("What is x?"))
+y = float(input("What is y?"))
 
 print(x+y)
