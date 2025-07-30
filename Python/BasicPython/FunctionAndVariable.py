@@ -5,7 +5,7 @@ print("hello, world")
     #name="Md. Zahidul Islam Mehedi"
 
 # Ask the user for their name
-name = input("What's your name? ").strip().title()
+    # name = input("What's your name? ").strip().title()
     # print("Hello, ", end="")
     # print(name)
 
@@ -21,4 +21,10 @@ name = input("What's your name? ").strip().title()
     # name = name.strip().title()
     # print(f"Hello {name}! How are you?")
 
-print(f"Hello {name}! How are you?")
+    # print(f"Hello {name}! How are you?")
+
+# Integers
+x = 1
+y = 2
+z = x+y
+print(z)
