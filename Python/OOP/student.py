@@ -9,6 +9,7 @@
     # def get_house():
     #     return input("House: ")
 
+# Tuple
     # def main():
     #     name, house = get_student()
     #     print(f"{name} from {house}")
@@ -18,16 +19,28 @@
     #     house= input("House: ")
     #     return name, house
 
+# Tuple wit List
+    # def main():
+    #     student = get_student()
+    #     if student[0] == "ZIMS":
+    #         student[1] = "Tolla"
+    #     print(f"{student[0]} from {student[1]}")
+
+    # def get_student():
+    #     name= input("Name: ")
+    #     house= input("House: ")
+    #     return [name, house]
+
+# Dictionary.
 def main():
     student = get_student()
-    if student[0] == "ZIMS":
-        student[1] = "Tolla"
-    print(f"{student[0]} from {student[1]}")
+    print(f"{student['name']} from {student['house']}")
 
 def get_student():
-    name= input("Name: ")
-    house= input("House: ")
-    return [name, house]
+    student = {}
+    student["name"] = input("Name: ")
+    student["house"] = input("House: ")
+    return student
 
 if __name__ == "__main__":
     main()
